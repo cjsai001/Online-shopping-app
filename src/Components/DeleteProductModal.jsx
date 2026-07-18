@@ -1,5 +1,5 @@
 import { Modal, Button } from "react-bootstrap";
-import { useShoppingItems } from "../context/ShoppingItemsContext";
+import { useShoppingItems } from "../Context/ShoppingItemsContext";
 
 export function DeleteProductModal({ show, handleClose, productId }) {
     const { deleteProduct } = useShoppingItems();
