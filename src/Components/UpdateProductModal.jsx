@@ -1,5 +1,5 @@
 import { Modal, Button, Form } from "react-bootstrap";
-import { useShoppingItems } from "../context/ShoppingItemsContext";
+import { useShoppingItems } from "../Context/ShoppingItemsContext";
 import { useState } from "react";
 
 export function UpdateProductModal({ show, handleClose, product }) {
