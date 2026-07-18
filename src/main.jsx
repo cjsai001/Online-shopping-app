@@ -5,8 +5,8 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import './index.css'
 import './bootstrap-overrides.scss'
 import {HashRouter} from "react-router-dom";
-import {ShoppingItemsProvider} from "./context/ShoppingItemsContext.jsx";
-import {ShoppingCartProvider} from "./context/ShoppingCartContext.jsx";
+import {ShoppingItemsProvider} from "./Context/ShoppingItemsContext.jsx";
+import {ShoppingCartProvider} from "./Context/ShoppingCartContext.jsx";
 
 createRoot(document.getElementById('root')).render(
     <StrictMode>
