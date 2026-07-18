@@ -1,6 +1,6 @@
 import { Container, Nav } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
-import { useShoppingCart } from "../context/ShoppingCartContext";
+import { useShoppingCart } from "../Context/ShoppingCartContext";
 import { ThemeToggle } from "./ThemeToggle";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faShoppingCart } from "@fortawesome/free-solid-svg-icons";
