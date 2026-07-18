@@ -1,11 +1,11 @@
 import { Routes, Route } from "react-router-dom";
 import { Container } from "react-bootstrap";
-import { Navbar } from "./components/Navbar";
+import { Navbar } from "./Components/Navbar";
 import Store from "./pages/Store";
-import { ShoppingCartProvider } from "./context/ShoppingCartContext";
-import { ShoppingItemsProvider } from "./context/ShoppingItemsContext";
-import { ThemeProvider } from "./context/ThemeContext";
-import { Footer } from "./components/Footer";
+import { ShoppingCartProvider } from "./Context/ShoppingCartContext";
+import { ShoppingItemsProvider } from "./Context/ShoppingItemsContext";
+import { ThemeProvider } from "./Context/ThemeContext";
+import { Footer } from "./Components/Footer";
 import Admin from "./pages/Admin";
 import Checkout from "./pages/Checkout";
 import { ToastContainer } from "react-toastify";
