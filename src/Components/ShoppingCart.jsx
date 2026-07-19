@@ -1,11 +1,11 @@
 import { Offcanvas, Stack, Button } from "react-bootstrap";
-import { useShoppingCart } from "../context/ShoppingCartContext";
+import { useShoppingCart } from "../Context/ShoppingCartContext";
 import { CartItem } from "./CartItem";
 import { formatCurrency } from "../utilities/formatCurrency";
 import { useState } from "react";
 import { toast } from "react-toastify";
 import { useNavigate } from "react-router-dom";
-import { useShoppingItems } from "../context/ShoppingItemsContext";
+import { useShoppingItems } from "../Context/ShoppingItemsContext";
 
 export function ShoppingCart() {
     const { closeCart, cartItems, clearCart, isOpen } = useShoppingCart();
