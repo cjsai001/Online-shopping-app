@@ -1,7 +1,7 @@
 import Modal from 'react-modal';
 import Button from "react-bootstrap/Button";
 import {faSpinner} from "@fortawesome/free-solid-svg-icons";
-import {useShoppingItems} from "../../context/ShoppingItemsContext.jsx";
+import {useShoppingItems} from "../../Context/ShoppingItemsContext.jsx";
 import {toast} from 'react-toastify';
 import {Zoom, Flip} from 'react-toastify';
 import InProgressToastContent from "../InProgressToastContent.jsx";
