@@ -4,10 +4,10 @@ metadata:
   name: online-shop
   namespace: online-shop-prod
 spec:
+  type: ClusterIP
   selector:
     app: online-shop
   ports:
-    - name: http
-      port: 80
-      targetPort: 80
-  type: ClusterIP
+  - name: http
+    port: 5173
+    targetPort: 80

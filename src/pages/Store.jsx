@@ -1,7 +1,7 @@
 import { Container, Row, Col, Button } from "react-bootstrap";
-import { StoreItem } from "../components/StoreItem";
-import { useShoppingItems } from "../context/ShoppingItemsContext";
-import { SearchBar } from "../components/SearchBar";
+import { StoreItem } from "../Components/StoreItem";
+import { useShoppingItems } from "../Context/ShoppingItemsContext";
+import { SearchBar } from "../Components/SearchBar";
 import { useState, useMemo } from "react";
 
 export default function Store() {

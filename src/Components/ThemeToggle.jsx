@@ -1,4 +1,8 @@
 import { useTheme } from '../Context/ThemeContext';
+<<<<<<< HEAD
+=======
+
+>>>>>>> 245622a (update kubernetes configs and app components)
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSun, faMoon } from '@fortawesome/free-solid-svg-icons';
 

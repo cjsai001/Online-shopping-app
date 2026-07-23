@@ -26,7 +26,7 @@ export default function App() {
                             </Routes>
                         </Container>
                         <Footer />
-                        <ToastContainer 
+                        <ToastContainer
                             position="top-right"
                             autoClose={3000}
                             hideProgressBar={false}

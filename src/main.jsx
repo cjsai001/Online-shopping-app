@@ -11,7 +11,7 @@ import {ShoppingCartProvider} from "./Context/ShoppingCartContext.jsx";
 createRoot(document.getElementById('root')).render(
     <StrictMode>
         <HashRouter>
-            <ShoppingItemsProvider>
+            <ShoppingItemsProvider>i
                 <ShoppingCartProvider>
                     <App/>
                 </ShoppingCartProvider>

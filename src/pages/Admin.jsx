@@ -1,6 +1,6 @@
 import { Container, Row, Col, Button } from "react-bootstrap";
 import { useState } from "react";
-import { useShoppingItems } from "../context/ShoppingItemsContext";
+import { useShoppingItems } from "../Context/ShoppingItemsContext";
 import { formatCurrency } from "../utilities/formatCurrency";
 import { toast } from "react-toastify";
 
