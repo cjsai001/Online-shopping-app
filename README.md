@@ -41,12 +41,6 @@ These documents provide the context needed to understand the project requirement
 
 ---
 
-### Situation
-
-As part of the **Train With Shubham Hackathon Phase 1**, I was given the charge of deploying an Online Shopping Portal to the internet. The main goal was to ensure that the website was easily accessible, reliable, and scalable so that it could handle user traffic efficiently. Achiving this using DevOps automation tools to develop the deployment process, reducing manual effort, and improving overall system performance. Involved setting up the necessary infrastructure, automating deployments, and ensuring the application could run smoothly in a real time.
-
----
-
 ### Task
 
 - Develop the Required Infrastructre for Online Shopping Portal
