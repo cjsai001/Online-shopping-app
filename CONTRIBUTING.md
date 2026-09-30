@@ -41,7 +41,7 @@ npm run dev
 yarn dev
 ```
 
-We follow the [Conventional Commits](https://www.conventionalcommits.org/) specification:
+We follow the [Conventional Commit](https://www.conventionalcommits.org/) specification:
 
 - `feat:` - New features
 - `fix:` - Bug fixes
