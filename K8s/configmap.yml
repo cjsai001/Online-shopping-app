@@ -8,3 +8,5 @@ data:
   HOST: "0.0.0.0"
   PORT: "5173"
   VITE_HOST: "0.0.0.0"
+
+
